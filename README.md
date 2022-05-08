@@ -22,9 +22,9 @@ Getting started is simple! This repository is completely written in python. At t
 ##Run the experiment
 
 It will run alexnet as its network topology and google TPU config as its 
-* Run the command: ```python3 Layer-scale-sram/scale.py```
+* Run the command: ```python3 Layer-scale-sram/scale-noc.py```
 * Wait for the run to finish
-* Run the command: ```python3 Tile-scale-sram/scale.py```
+* Run the command: ```python3 Tile-scale-sram/scale-noc.py```
 * Wait for the run to finish
 * Run the command: ```python3 scalenoc.py```
 * Wait for the run to finish
